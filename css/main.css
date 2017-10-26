@@ -1,3 +1,64 @@
-/*
- * Estilos de tu proyecto
- */
+
+/*fuente de la página*/
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	width: 100%;
+}
+/*medidas de barra superior*/
+header{
+	width: 100%;
+	height: 115px;
+	background-color: #fff;
+	position: fixed;
+	top:0;
+	
+}
+/*posicion barra superior*/
+nav{
+	margin:2% ;
+	padding-left: 3%;
+}
+/*medidas de logo en menú*/
+.pink{
+	width: 60px;
+
+}
+/*dando fomato a menu linkeado superior derecho*/
+.toolbar{
+	list-style: none;
+	display: inline-block;
+	font-size: 20px;
+	padding-left: 660px;
+
+
+}
+.link{
+	text-decoration: none;
+	color: #728099;
+	font-weight: 300;
+}
+.menu{
+	float: left;
+	margin-right: 40px;
+
+}
+
+.log{
+	border: 1px solid #D8DCE6;
+	padding: 10px;
+	border-radius: 8px;
+}
+main{
+	width: 100%;
+	margin-top:0;
+	
+}
+.first{
+	width: 100%;
+	height: 540px;
+	background-image: url(../assets/images/hero.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position-y: -115px;
+}
