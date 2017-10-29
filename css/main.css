@@ -12,7 +12,12 @@ header{
 	background-color: #fff;
 	position: fixed;
 	top:0;
-	
+	display: block;
+	z-index: 1600;
+}
+/*ancho de las secciones*/
+section{
+	width: 100%;
 }
 /*posicion barra superior*/
 nav{
@@ -22,38 +27,43 @@ nav{
 /*medidas de logo en menú*/
 .pink{
 	width: 60px;
-
 }
 /*dando fomato a menu linkeado superior derecho*/
 .toolbar{
 	list-style: none;
 	display: inline-block;
 	font-size: 20px;
-	padding-left: 660px;
-
-
+	padding-left: 670px;
+}
+/*quitarle el aspecto de link a texto del nav, ancho de fuente*/
+a{
+	text-decoration: none;
+}
+/*poner efecto a todos los links con class lk*/
+.lk:hover{
+	color: #FF00BF;
 }
 .link{
-	text-decoration: none;
 	color: #728099;
 	font-weight: 300;
 }
+/*posición y separación opciones del nav*/
 .menu{
 	float: left;
 	margin-right: 40px;
-
 }
-
+/*borde de "boton" log in, color, redondeado y con padding*/
 .log{
 	border: 1px solid #D8DCE6;
 	padding: 10px;
 	border-radius: 8px;
 }
+/*ancho al 100% de la página de todo el cuerpo de la página*/
 main{
 	width: 100%;
 	margin-top:0;
-	
 }
+/*gif de fondo, largo y ancho de primer section*/
 .first{
 	width: 100%;
 	height: 540px;
@@ -61,4 +71,267 @@ main{
 	background-repeat: no-repeat;
 	background-size: 100%;	
 	background-position-y: -115px;
+}
+/*posicion, color de fondo y altura de primera caja de texto*/
+.signUp{
+	margin-top: 110px;
+	background-color: #fff;
+	width: 36.5%;
+	float: right;
+	height: 70.4%;
+	padding-top: 50px;
+	padding-left: 65px;
+}
+/*color, tamaño de fuente, separación entre lineas y grosor de primer título*/
+.title{
+	color:#352384;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 7px;
+}
+/*color y grosor de subtit.*/
+#subt{
+	color: #352384;
+	font-weight: 500;
+}
+/*trasnsformar a mayúsculas todo lo indicado en la izq.*/
+h1, h4, h5{
+	text-transform: uppercase;
+}
+/*forma, tamaño formulario para num de telef.*/
+input{
+	border: none;
+	border-bottom: 1px solid #352384;
+	width: 400px;
+	height: 30px;
+	font-size: 15px;
+}
+/*tamaño, color de fondo de boton, bordes curvos y ancho de letra*/
+.button{
+	width: 170px;
+	height: 50px;
+	margin-right: 25px;
+	background-color: #FF00BF;
+	border-radius: 7px;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: lighter;
+	display: inline-block;
+}
+/*poner bajar texto del botón*/
+.txtBt{
+	padding-top: 15px;
+}
+/*cambiar color de texto del botón*/
+.btTx{
+	color: #fff;
+}
+/*link sign up to ride, color, tipo de display y ancho*/
+.ride{
+	width: 150px;
+	display: inline-block;
+	text-decoration: underline;
+	color: #728099;
+}
+/*color del link*/
+.rd, h6, .little{
+	color:#A1ABBB;
+	font-weight: lighter;
+}
+/*interlineado de lineas bajo el botón*/
+h6{
+	line-height: 0px;
+}
+/*cambio de links al pasar mouse*/
+.little:hover{
+	text-decoration: underline;
+}
+/*gradiente entre primera y segunda sección*/
+.purple{
+	width: 58.5%;
+	height:  100px;
+	position: relative;
+	top:440px;
+	background: linear-gradient(transparent,#76278f);
+}
+/* color de fondo y tamaño segunda sección*/
+.second{
+	margin-top: 0;
+	height: 650px;
+	background: linear-gradient(#76278f,#2b1e66);
+}
+/*dar margen, color, ancho y tipo de display a la caja de texto*/
+#textSecond{
+	padding-top: 30px;
+	margin-left: 130px;
+	color: #FFF;
+	width: 38%;
+	display: inline-block;
+	float: left;
+}
+/*darle relleno a los h1, aumentar tamaño de fuente y grosor*/
+.scnd{
+	padding-top: 45px;
+	font-weight: 500;
+	font-size: 1.8em;
+}
+/*quitar interlineado de ultimos 2 h1, hacer calzar espacio entre párrafos*/
+.happy{
+	padding-top: 60px;
+	line-height: 0px;
+}
+/*quitar relleno sobre h1 final*/
+.last{
+	padding-top: 0px;
+}
+/*darle tamaño de fuente, grosor y espaciado a los h3*/
+#textSecond h3{
+	font-weight: lighter;
+	font-size: 1em;
+	line-height: 10px;
+}
+/*tamaño contenedor de imagen y tipo de display*/
+.imgSecond{
+	display: inline-block;
+	width: 500px;
+}
+/*tamaño de imagen, relleno superior y de lado izquierdo*/
+.phone{
+	height: 500px;
+	width: 500px;
+	display: inline-block;
+	padding-top: 90px;
+	padding-left: 50px;
+}
+/*largo de 3ra seccion*/
+.third{
+	height: 520px;
+}
+/*clase para los textos que van al lado izquierdo (3 y 5ta sección)*/
+/*distancia desde el borde izquierdo y desde el "top"*/
+/*ancho, largo, tipo de display*/
+.left{
+	padding-left: 40px;
+	padding-top: 10px;
+	width: 340px;
+	height: 500px;
+	display: inline-block;
+	float: left;
+	padding-right: 60px;
+}
+/*tamaño y ubicación respecto al margen de todos los h5 (sección 3 a 5)*/
+h5{
+	font-size: 0.75em;
+	margin-bottom: 0px;
+}
+/*clase para todos los titulos de videos, tamaño fuente, grosor y ubicación respecto al margen*/
+.videoTitle{
+	font-size: 1.8em;
+	font-weight: 500;
+	margin-top: 0px;
+}
+/*interlineado de todos los párrafos*/
+p{
+	line-height: 23px;
+}
+/*tipo de display de primer video*/
+#firstVideo{
+	display: inline-block;
+}
+/*altura de cuarta sección*/
+.fourth{
+	height: 520px;
+}
+/*ubicación, tipo de display y distancia desde el top de segundo video*/
+#secondVideo{
+	float: left;
+	display: inline-block;
+	border-top: 0px;
+}
+/*tipo de display de caja de texto de 2do video(4ta sección), ancho y ubicación*/
+#textFourth{
+	display: inline-block;
+	width: 340px;
+	padding-left: 60px;	
+}
+/*altura 5ta sección*/
+.fifth{
+	height: 520px;
+	top:0px;
+}
+/*altura footer*/
+footer{
+	margin-top: 0px;
+	height: 550px;
+	background-color: #333447;
+	color: #FFF;
+}
+/*ubicación y tamaño de fuente de títulos de las columnas del footer*/
+footer h4{
+	margin-top: 0px;
+	padding-top: 30px;
+	font-weight: 500;
+}
+/*margen, ubicación y tipo de display para todas las listas del footer*/
+.footLinks{
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 140px;
+	padding-right: 15px;
+	padding-top: 35px;
+	display: inline-block;
+}
+/*color de letra, interlineado y grosor de fuente para contenido de las listas*/
+.a{
+	color: #FFF;
+	line-height: 45px;
+	font-weight: 300;
+}
+/*"cubierta" para los elementos de las listas, linea inferior y color al pasar el mouse*/
+.a:hover{
+	text-decoration: underline;
+	color:#FF00BF;
+}
+/*color y tamaño de fuente para todos los títulos de las listas (columnas)*/
+.b{
+	color: #FFF;
+	font-size: large;
+}
+/*cubierta para titulos de columnas (linea inferior)*/
+.b:hover{
+	text-decoration: underline;
+}
+/*tamaño de imágenes de descarga*/
+.dw{
+	height: 40px;
+	width: 135px;
+	padding-top:35px; 
+	padding-left: 45px;
+}
+/* ubicación contenedor de iconos redes sociales, alineación al centro*/
+.social{
+	text-align: center;
+	padding-top: 50px;
+}
+/*color y tamaño de íconos*/
+.icono{
+	color: #FFF;
+	font-size: 35px;
+}
+/*espaciado entre íconos*/
+.insta{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+/*tamaño y ubicación linea inferior a íconos*/
+.line{
+	padding-top: 20px;
+	width: 765px;
+	margin-left: 300px;
+	border-bottom: 1.4px solid white;
+}
+/*tamaño y ubicación texto final*/
+.final{
+	padding-top: 40px;
+	font-weight: 300;
 }
