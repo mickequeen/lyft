@@ -10,4 +10,4 @@ archivo HTML con etiquetas semánticas, compuesto por:
 
 1 footer, contiene enlaces según sección, botones de descarga multiplataforma y link a redes sociales.
 
-Trabajo realizado por Carol Martínez.
+Realizado por Carol Martínez.
